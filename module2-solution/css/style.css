@@ -1,10 +1,13 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
+
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 175%;
 }
 
 
@@ -21,12 +24,14 @@ h1 {
 	
 h2.title {
 	margin-top: 0px;
-	background-color: #ffb3b3;
 	position: relative;
 	float: right;
 	top: 0px;
 	right: 0px;
 	padding: 1px 3px 1px 1px;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 125%;
 }
 
 .container > p {
@@ -34,8 +39,19 @@ h2.title {
   width: 100%;
   height: 100%;
   padding: 5px 5px 5px 5px;
-  font-family: Helvetica;
   color: white;
+}
+
+.first-title { 
+	background-color: #ffb3b3
+}
+
+.second-title {
+	background-color: #00ff99
+}
+
+.third-title { 
+	background-color: #6699ff
 }
 
 /* Simple Responsive Framework. */
