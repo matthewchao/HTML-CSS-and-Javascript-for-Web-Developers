@@ -1,0 +1,36 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #cccccc;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 1;
+	border-color: black;
+}
+
+/* #company-name {
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+} */
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	margin: 0px 0px 0px 0px;
+}
+
+#nav-list {
+	background-color: #ffcc99;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#tall-section {
+	height: 1500px;
+	margin: 10px 10px 10px 10px;
+}
+
